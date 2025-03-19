@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "816648288881",
+    "firebase_url": "https://loreal-brandstorm-default-rtdb.firebaseio.com",
+    "project_id": "loreal-brandstorm",
+    "storage_bucket": "loreal-brandstorm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816648288881:android:60304db48a51b8997679d0",
+        "android_client_info": {
+          "package_name": "com.example.lorealbrandstorm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816648288881-r35p2nbh18reir085b8et63sj81t54ua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lorealbrandstorm",
+            "certificate_hash": "67f05c897bab7deb90071fa6f2c271cb3e1169b0"
+          }
+        },
+        {
+          "client_id": "816648288881-fgl6ebn3jhc4gghaghef2mpa4pgn13ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZXRQ612XPtAOcaSO6qWIxvdU4dSuacRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816648288881-fgl6ebn3jhc4gghaghef2mpa4pgn13ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

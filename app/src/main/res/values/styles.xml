@@ -1,0 +1,16 @@
+<resources>
+    <!-- Stilul de bază al aplicației -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <!-- Stilul pentru NavigationView -->
+    <style name="DrawerStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorAccent">@color/purple_500</item>
+    </style>
+</resources>
