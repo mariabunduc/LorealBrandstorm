@@ -1,12 +1,12 @@
 <resources>
-    <!-- Stilul de bază al aplicației -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/teal_200</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
-    <!-- Stilul pentru NavigationView -->
     <style name="DrawerStyle" parent="ThemeOverlay.AppCompat.Dark">
         <item name="android:background">@color/white</item>
         <item name="android:textColor">@color/black</item>

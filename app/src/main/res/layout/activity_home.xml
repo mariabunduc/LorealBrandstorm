@@ -35,9 +35,9 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:gravity="center_vertical">
+                    android:padding="16dp">
 
                     <!-- Iconița de meniu -->
                     <ImageView
@@ -70,27 +70,27 @@
                         android:id="@+id/scanIcon"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:src="@drawable/ic_scan"/>
+                        android:src="@drawable/ic_scan" />
                 </LinearLayout>
 
                 <!-- Caseta de căutare -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="70dp"
                     android:layout_marginStart="16dp"
+                    android:layout_marginTop="70dp"
                     android:layout_marginEnd="16dp"
                     android:background="@drawable/rounded_black_border"
-                    android:padding="16dp"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:padding="16dp">
 
                     <!-- Iconița de căutare -->
                     <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:src="@drawable/ic_search"
-                        android:layout_marginEnd="8dp" />
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/ic_search" />
 
                     <!-- Textul "Search here" -->
                     <TextView
@@ -241,11 +241,15 @@
         </LinearLayout>
     </FrameLayout>
 
-    <!-- Meniul lateral gol -->
+    <!-- Meniul lateral -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigationView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/white" />
+        android:background="@color/white"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/menu_navigation">
+
+</com.google.android.material.navigation.NavigationView>
 </androidx.drawerlayout.widget.DrawerLayout>
